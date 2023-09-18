@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 0 165px;
+  padding-top: 50px;
+}
+
+.main {
+  background: url(../img/hero\ image.png) no-repeat center center/cover;
+}
+.main .container {
+  padding: 0 165px;
+  padding-top: 50px;
+}
+.main .container .main__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .container .main__header .header__nav {
+  display: flex;
+  align-items: center;
+}
+.main .container .main__header .header__nav .nav__menu {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+.main .container .main__header .header__nav .nav__menu .menu__list {
+  list-style: none;
+  display: flex;
+}
+.main .container .main__header .header__nav .nav__menu .menu__list .nav__item {
+  margin: 0 26px;
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.main .container .main__header .header__nav .nav__menu .manu__border {
+  border-left: 2px solid white;
+  height: 30px;
+}
+.main .container .main__header .header__nav .header__contact {
+  margin: 0 26px;
+  display: flex;
+  align-items: center;
+}
+.main .container .main__header .header__nav .header__contact .contacts__block .contact__phone {
+  display: flex;
+}
+.main .container .main__header .header__nav .header__contact .contacts__block .contact__phone a {
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.main .container .main__header .header__nav .header__contact .contacts__block .contact__text {
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main .container .main__header .header__nav .header__contact .header__button {
+  margin-left: 26px;
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 15px 30px;
+  background: #FF7400;
+}
+.main .container .main__content {
+  display: flex;
+}
+.main .container .main__content .content__text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 224px;
+  margin-top: 200px;
+}
+.main .container .main__content .content__text .content__title {
+  color: #D67E35;
+  font-family: Tinos;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main .container .main__content .content__text .content__title_welcome {
+  font-size: 50px;
+}
+.main .container .main__content .content__text .content__subtitle {
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 100px;
+  margin-top: 25px;
+  position: relative;
+}
+.main .container .main__content .content__text .content__subtitle::after {
+  content: " ";
+  display: block;
+  height: 2px;
+  width: 70px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: white;
+  margin-left: calc(100% + 20px);
+}
+.main .container .main__content .content__text .content__subtitle::before {
+  content: " ";
+  display: block;
+  height: 2px;
+  width: 70px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  background: white;
+  margin-right: calc(100% + 20px);
+}
+.main .container .main__content .content__text .content__button {
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 15px 30px;
+  background: #FF7400;
+  margin-top: 25px;
+}
+
+.second {
+  margin-top: -100px;
+}
+.second .container .main__list {
+  margin-bottom: -50px;
+}
+.second .container .main__list .opportunities__list {
+  display: flex;
+  justify-content: center;
+}
+.second .container .main__list .opportunities__list .list__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #FFF;
+  padding: 0 43px;
+  box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+  margin: 0 15px;
+  max-width: 350px;
+}
+.second .container .main__list .opportunities__list .list__item img {
+  padding: 0 124px;
+  padding-top: 35px;
+}
+.second .container .main__list .opportunities__list .list__item .item__title {
+  color: #2C2C2C;
+  font-family: Tinos;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.second .container .main__list .opportunities__list .list__item .item__title span {
+  color: #BC9060;
+  font-family: Tinos;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.second .container .main__list .opportunities__list .list__item .item__subtitle {
+  color: #656363;
+  text-align: center;
+  font-family: Tinos;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+  margin-bottom: 54px;
+}
+
+.third .container .intro__third {
+  display: flex;
+  margin-top: 150px;
+}
+.third .container .intro__third .intro__content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 125px;
+}
+.third .container .intro__third .intro__content .intro__title {
+  color: #000;
+  font-family: Tinos;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.third .container .intro__third .intro__content .intro__title span {
+  color: #D67E34;
+}
+.third .container .intro__third .intro__content .intro__text {
+  color: #656363;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 21px;
+  padding-bottom: 30px;
+}
+.third .container .intro__third .intro__content .intro__list {
+  display: flex;
+}
+.third .container .intro__third .intro__content .intro__list .list__item {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+  margin-top: 39px;
+}
+.third .container .intro__third .intro__content .intro__list .list__item h2 {
+  color: #BC9060;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.third .container .intro__third .intro__content .intro__list .list__item p {
+  color: #000;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.fourth {
+  background: url(../img/delicious-1866631_1920\ 1.png) no-repeat center center/cover;
+  margin-bottom: 50px;
+}
+.fourth .container .intro__fourth {
+  display: flex;
+  padding-bottom: 104px;
+  padding-top: 80px;
+  align-items: center;
+}
+.fourth .container .intro__fourth .intro__text {
+  display: flex;
+  flex-direction: column;
+  margin-right: 300px;
+}
+.fourth .container .intro__fourth .intro__text h1 {
+  color: #D67E34;
+  font-family: Tinos;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.fourth .container .intro__fourth .intro__text h3 {
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 20px;
+}
+.fourth .container .intro__fourth .content__button {
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 15px 30px;
+  background: #FF7400;
+  margin-top: 25px;
+}/*# sourceMappingURL=index.css.map */
